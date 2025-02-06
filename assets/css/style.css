@@ -118,7 +118,7 @@ Version: 1.0.0
 # Normalize
 --------------------------------------------------------------*/
 :root {
-  --main-color-one: #FB0937;
+  --main-color-one: #38B6FF;
   --menu-font: 'Poppins', sans-serif;
   --heading-font: 'Montserrat', sans-serif;
   --body-font: 'Montserrat', sans-serif;
@@ -1703,7 +1703,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   cursor: pointer; }
 
 .widget_search .search-form .submit-btn:hover {
-  background-color: rgba(251, 9, 55, 0.8);
+  background-color: rgba(9, 162, 251, 0.8);
   color: #fff; }
 
 .widget_author_meta {
@@ -3519,7 +3519,7 @@ header {
         width: 0;
         height: 0;
         z-index: 1;
-        background-color: rgba(251, 9, 55, 0.1);
+        background-color: rgba(9, 162, 251, 0.1);
         -webkit-transition: all 0.8s;
         -moz-transition: all 0.8s;
         -o-transition: all 0.8s;
@@ -3531,7 +3531,7 @@ header {
         left: 0;
         width: 0;
         height: 0;
-        background-color: rgba(251, 9, 55, 0.1);
+        background-color: rgba(9, 162, 251, 0.1);
         -webkit-transition: all 0.8s;
         -moz-transition: all 0.8s;
         -o-transition: all 0.8s;
@@ -3921,8 +3921,8 @@ header {
         -ms-transform: scale(1.1);
         transform: scale(1.1);
         z-index: 9;
-        -webkit-box-shadow: 0 0 25px 2px rgba(251, 9, 55, 0.2);
-        box-shadow: 0 0 25px 2px rgba(251, 9, 55, 0.2); }
+        -webkit-box-shadow: 0 0 25px 2px rgba(9, 162, 251, 0.2);
+        box-shadow: 0 0 25px 2px rgba(9, 162, 251, 0.2); }
         .pricing-plan-inner-columns:hover .table-list, .pricing-plan-inner-columns.active .table-list {
           -webkit-transform: none;
           -ms-transform: none;
@@ -3943,8 +3943,8 @@ header {
           background-color: var(--main-color-one);
           color: #fff;
           border: none !important;
-          -webkit-box-shadow: 0px 6px 20px -8px rgba(251, 9, 55, 0.9);
-          box-shadow: 0px 6px 20px -8px rgba(251, 9, 55, 0.9); }
+          -webkit-box-shadow: 0px 6px 20px -8px rgba(9, 162, 251, 0.9);
+          box-shadow: 0px 6px 20px -8px rgba(9, 162, 251, 0.9); }
           .pricing-plan-inner-columns:hover .main-btn-wrap .main-btn:hover, .pricing-plan-inner-columns.active .main-btn-wrap .main-btn:hover {
             -webkit-box-shadow: 0px 10px 20px -8px var(--main-color-one);
             box-shadow: 0px 10px 20px -8px var(--main-color-one); }
@@ -4361,7 +4361,8 @@ header {
       height: 140%;
       top: -20%;
       bottom: -20%;
-      background-color: #181818; }
+      /* background-color: #181818;  */
+    }
     .featured-vehicles-section .vehicle-slider-active .slick-slide.slick-current.slick-active.slick-center .h2-vehicle-slider-items .items-head {
       -webkit-transform: translateY(-28%);
       -ms-transform: translateY(-28%);
@@ -4382,7 +4383,7 @@ header {
           opacity: 0.7; }
 
 .h2-vehicle-slider-items {
-  background-color: #E0E5E9;
+  background-color: #38b6ff17;
   position: relative;
   text-align: center;
   margin: 60px 0;
@@ -4492,10 +4493,10 @@ header {
   flex-wrap: nowrap;
   padding-bottom: 20px; }
   .home-02-our-service-items .border-bg {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF9444), to(#FB0937));
-    background-image: -webkit-linear-gradient(top, #FF9444 0%, #FB0937 100%);
-    background-image: -o-linear-gradient(top, #FF9444 0%, #FB0937 100%);
-    background-image: linear-gradient(180deg, #FF9444 0%, #FB0937 100%); }
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF9444), to(#38B6FF));
+    background-image: -webkit-linear-gradient(top, #FF9444 0%, #38B6FF 100%);
+    background-image: -o-linear-gradient(top, #FF9444 0%, #38B6FF 100%);
+    background-image: linear-gradient(180deg, #FF9444 0%, #38B6FF 100%); }
   .home-02-our-service-items .item-left {
     width: 70px; }
     .home-02-our-service-items .item-left .item-border {
@@ -4737,7 +4738,7 @@ header {
     border-radius: 50%; }
 
 .home-2-car-adds-items .items-head.one .border-one::after {
-  border-left: 1px solid #FB0937; }
+  border-left: 1px solid #38B6FF; }
 
 .home-2-car-adds-items .items-head.one .border-one .icon {
   color: var(--main-color-one); }
@@ -4826,7 +4827,7 @@ header {
       height: 20px;
       line-height: 20px;
       border-radius: 50%;
-      border: 1px solid #FB0937;
+      border: 1px solid #38B6FF;
       display: none;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
@@ -4902,7 +4903,7 @@ header {
         left: 50%;
         width: 0;
         height: 0;
-        background-color: rgba(251, 9, 55, 0.6);
+        background-color: rgba(9, 162, 251, 0.6);
         -webkit-transition: all 1s;
         -moz-transition: all 1s;
         -o-transition: all 1s;
@@ -5062,8 +5063,8 @@ header {
     width: 70%;
     padding-left: 20px; }
   .most-popular-cars .h5-tab-slider-left-active .slick-slide.slick-current.slick-active .h5-tab-slider-left-items, .most-popular-cars .h5-tab-slider-left-active2 .slick-slide.slick-current.slick-active .h5-tab-slider-left-items {
-    -webkit-box-shadow: 0 0 15px 2px rgba(251, 9, 55, 0.2);
-    box-shadow: 0 0 15px 2px rgba(251, 9, 55, 0.2); }
+    -webkit-box-shadow: 0 0 15px 2px rgba(9, 162, 251, 0.2);
+    box-shadow: 0 0 15px 2px rgba(9, 162, 251, 0.2); }
   .most-popular-cars .h5-tab-slider-left-items {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -5318,16 +5319,16 @@ header {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    -webkit-box-shadow: 0 0 25px 2px rgba(251, 9, 55, 0.2);
-    box-shadow: 0 0 25px 2px rgba(251, 9, 55, 0.2);
+    -webkit-box-shadow: 0 0 25px 2px rgba(9, 162, 251, 0.2);
+    box-shadow: 0 0 25px 2px rgba(9, 162, 251, 0.2);
     z-index: 9; }
     .h5-car-filter-item .content-area:hover .main-btn-wrap .main-btn.black-border {
       border: none;
       background-color: var(--main-color-one);
       color: #fff;
-      -webkit-box-shadow: 0px 6px 20px -8px rgba(251, 9, 55, 0.9);
-      box-shadow: 0px 6px 20px -8px rgba(251, 9, 55, 0.9);
-      border: 1px solid #FB0937; }
+      -webkit-box-shadow: 0px 6px 20px -8px rgba(9, 162, 251, 0.9);
+      box-shadow: 0px 6px 20px -8px rgba(9, 162, 251, 0.9);
+      border: 1px solid #38B6FF; }
       .h5-car-filter-item .content-area:hover .main-btn-wrap .main-btn.black-border:hover {
         -webkit-box-shadow: 0px 10px 20px -8px var(--main-color-one);
         box-shadow: 0px 10px 20px -8px var(--main-color-one); }
@@ -5443,8 +5444,8 @@ header {
     height: 82%;
     display: block;
     background-color: #fff;
-    -webkit-box-shadow: 0 3px 16px #FB09374D;
-    box-shadow: 0 3px 16px #FB09374D; }
+    -webkit-box-shadow: 0 3px 16px #38B6FF4D;
+    box-shadow: 0 3px 16px #38B6FF4D; }
   .h5-testimonial-inner::after {
     position: absolute;
     left: 10%;
@@ -5739,7 +5740,7 @@ header {
     left: 0;
     width: 0;
     height: 0;
-    background-color: rgba(251, 9, 55, 0.1);
+    background-color: rgba(9, 162, 251, 0.1);
     -webkit-transition: all 0.8s;
     -o-transition: all 0.8s;
     transition: all 0.8s;
@@ -5752,7 +5753,7 @@ header {
     width: 0;
     height: 0;
     z-index: 1;
-    background-color: rgba(251, 9, 55, 0.1);
+    background-color: rgba(9, 162, 251, 0.1);
     -webkit-transition: all 0.8s;
     -o-transition: all 0.8s;
     transition: all 0.8s;
@@ -5766,7 +5767,7 @@ header {
       height: 100%; }
 
 .service-single-item .service-content .item-number {
-  color: rgba(251, 9, 55, 0.15);
+  color: rgba(9, 162, 251, 0.15);
   font-size: 140px;
   line-height: 150px;
   font-family: var(--body-font);
@@ -6130,7 +6131,7 @@ header {
         left: 50%;
         width: 0;
         height: 0;
-        background-color: rgba(251, 9, 55, 0.1);
+        background-color: rgba(9, 162, 251, 0.1);
         -webkit-transition: all 0.5s;
         -moz-transition: all 0.5s;
         -o-transition: all 0.5s;
@@ -6230,7 +6231,7 @@ header {
   .blog-details-items blockquote .quote-icon {
     width: 7%;
     font-size: 40px;
-    color: rgba(251, 9, 55, 0.3); }
+    color: rgba(9, 162, 251, 0.3); }
   .blog-details-items blockquote p {
     width: 93%; }
 
@@ -6526,8 +6527,8 @@ header {
   -o-transition: all 0.5s;
   transition: all 0.5s; }
   .grid-list-column-item:hover {
-    -webkit-box-shadow: 0 6px 12px rgba(251, 9, 55, 0.26);
-    box-shadow: 0 6px 12px rgba(251, 9, 55, 0.26); }
+    -webkit-box-shadow: 0 6px 12px rgba(9, 162, 251, 0.26);
+    box-shadow: 0 6px 12px rgba(9, 162, 251, 0.26); }
     .grid-list-column-item:hover::after {
       top: 0;
       border-radius: 0;
@@ -6536,8 +6537,8 @@ header {
       border: none;
       background-color: var(--main-color-one);
       color: #F5F5F5;
-      -webkit-box-shadow: 0px 6px 20px -8px rgba(251, 9, 55, 0.9);
-      box-shadow: 0px 6px 20px -8px rgba(251, 9, 55, 0.9); }
+      -webkit-box-shadow: 0px 6px 20px -8px rgba(9, 162, 251, 0.9);
+      box-shadow: 0px 6px 20px -8px rgba(9, 162, 251, 0.9); }
       .grid-list-column-item:hover .main-btn-wrap .main-btn:hover {
         background-color: var(--main-color-one);
         -webkit-box-shadow: 0px 10px 20px -8px var(--main-color-one);
@@ -6923,8 +6924,8 @@ header {
 
 .car-booking__thumb {
   background-color: #F5F5F5;
-  -webkit-box-shadow: 0px 3px 6px rgba(251, 9, 55, 0.26);
-  box-shadow: 0px 3px 6px rgba(251, 9, 55, 0.26);
+  -webkit-box-shadow: 0px 3px 6px rgba(9, 162, 251, 0.26);
+  box-shadow: 0px 3px 6px rgba(9, 162, 251, 0.26);
   margin-right: 20px; }
 
 .car-booking__content p {
@@ -7312,8 +7313,8 @@ header {
   text-transform: capitalize;
   font-family: var(--body-font);
   font-weight: 500;
-  -webkit-box-shadow: 0px 6px 20px -8px rgba(251, 9, 55, 0.9);
-  box-shadow: 0px 6px 20px -8px rgba(251, 9, 55, 0.9);
+  -webkit-box-shadow: 0px 6px 20px -8px rgba(9, 162, 251, 0.9);
+  box-shadow: 0px 6px 20px -8px rgba(9, 162, 251, 0.9);
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
@@ -7331,7 +7332,7 @@ header {
   .main-btn-wrap .main-btn.uppercase {
     text-transform: uppercase; }
   .main-btn-wrap .main-btn.border {
-    border: 1px solid #FB0937;
+    border: 1px solid #38B6FF;
     background-color: transparent;
     color: var(--main-color-one);
     -webkit-box-shadow: none;
@@ -7657,7 +7658,7 @@ header {
       content: '';
       width: 0;
       height: 0;
-      border-bottom: 50px solid #FB0937;
+      border-bottom: 50px solid #38B6FF;
       border-left: 50px solid transparent; }
 
 .testimonial-inner.style-02 .testimonial-right {
@@ -7711,7 +7712,7 @@ header {
           width: 20px;
           height: 20px;
           border-radius: 50%;
-          border: 1px solid #FB0937;
+          border: 1px solid #38B6FF;
           display: inline-block;
           top: 50%;
           -webkit-transform: translateY(-50%);
@@ -7860,7 +7861,7 @@ header {
       right: 0;
       z-index: -1;
       font-size: 150px;
-      color: rgba(251, 9, 55, 0.2); }
+      color: rgba(9, 162, 251, 0.2); }
     .testimonial-inner .testimonial-right .testimonial-content-wrap {
       width: 100%;
       /*---Slider Animation---*/ }
@@ -8106,7 +8107,7 @@ header {
   height: 55px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  background-color: rgba(251, 9, 55, 0.9);
+  background-color: rgba(9, 162, 251, 0.9);
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
@@ -8188,7 +8189,7 @@ input:focus {
   text-decoration: none; }
 
 .ui-datepicker-calendar tbody td a:hover {
-  background-color: rgba(251, 9, 55, 0.5); }
+  background-color: rgba(9, 162, 251, 0.5); }
 
 .ui-datepicker-calendar tbody td a.ui-state-active {
   background-color: var(--main-color-one);
@@ -8726,8 +8727,8 @@ input:focus {
           box-shadow: 0px 1px 4px rgba(24, 24, 24, 0.5); }
         .product-details-tab .product-description .color-list.style-02 .color-list-row .list-item.red a {
           background-color: var(--main-color-one);
-          -webkit-box-shadow: 0px 1px 4px rgba(251, 9, 55, 0.5);
-          box-shadow: 0px 1px 4px rgba(251, 9, 55, 0.5); }
+          -webkit-box-shadow: 0px 1px 4px rgba(9, 162, 251, 0.5);
+          box-shadow: 0px 1px 4px rgba(9, 162, 251, 0.5); }
         .product-details-tab .product-description .color-list.style-02 .color-list-row .list-item.yellow a {
           background-color: yellow;
           -webkit-box-shadow: 0px 1px 4px rgba(255, 255, 0, 0.5);
@@ -8914,8 +8915,8 @@ input:focus {
 .quick-find-us .find-us-inner {
   text-align: center;
   background-color: #fff;
-  -webkit-box-shadow: 0 3px 16px rgba(251, 9, 55, 0.4);
-  box-shadow: 0 3px 16px rgba(251, 9, 55, 0.4);
+  -webkit-box-shadow: 0 3px 16px rgba(9, 162, 251, 0.4);
+  box-shadow: 0 3px 16px rgba(9, 162, 251, 0.4);
   max-width: 350px;
   padding: 30px 0;
   margin-bottom: -50%;
@@ -8947,7 +8948,7 @@ input:focus {
   color: #fff; }
 
 .contact-items .icon {
-  color: #FB0937;
+  color: #38B6FF;
   font-size: 30px; }
 
 .contact-items .heading {
@@ -9273,7 +9274,7 @@ input:focus {
       .message-popup-content_close:hover,
       .contact-popup-content_close:hover {
         cursor: pointer;
-        background: rgba(251, 9, 55, 0.8); }
+        background: rgba(9, 162, 251, 0.8); }
   .location-popup__wrapper,
   .message-popup__wrapper,
   .contact-popup__wrapper {
@@ -9668,7 +9669,7 @@ input:focus {
 .countdown {
   display: table;
   margin: auto;
-  background-color: rgba(251, 9, 55, 0.3);
+  background-color: rgba(9, 162, 251, 0.3);
   padding: 30px 40px;
   text-align: center; }
   .countdown__item {
@@ -10034,9 +10035,9 @@ input:focus {
           .checkout-area__left__inner .inner-right .radio-button li:hover {
             color: #181818; }
             .checkout-area__left__inner .inner-right .radio-button li:hover::after {
-              background-color: #FB0937; }
+              background-color: #38B6FF; }
             .checkout-area__left__inner .inner-right .radio-button li:hover::before {
-              border-color: #FB0937; }
+              border-color: #38B6FF; }
       .checkout-area__left__inner .inner-right .text {
         color: #181818;
         font-size: 14px;
@@ -10457,7 +10458,7 @@ input:focus {
     font-size: 16px;
     font-weight: 600;
     margin-top: -10px;
-    border-bottom: 2px solid #FB0937;
+    border-bottom: 2px solid #38B6FF;
     margin-bottom: -2px; }
 
 .pagination-four_arrows_icon {
@@ -10519,3 +10520,117 @@ input:focus {
   margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Section for gallery */
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Banner Styling */
+.banner {
+  background: #222;
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 36px;
+  color:white;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-top: 10px;
+  color:white
+}
+
+/* Gallery Grid */
+.gallery-container {
+  padding: 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.gallery-item {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-img {
+    max-width: 90%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.lightbox-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Navigation Arrows */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.prev { left: 20px; }
+.next { right: 20px; }
+
+.prev:hover, .next:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
