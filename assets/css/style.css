@@ -3578,7 +3578,8 @@ header {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+   }
     .how-we-are__offer-section__item {
       max-width: 190px;
       text-align: center;
@@ -3606,8 +3607,8 @@ header {
       .how-we-are__offer-section__item:hover .icon-area .icon {
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg); }
-      .how-we-are__offer-section__item:not(:last-child) {
-        margin-right: 20px; }
+      /* .how-we-are__offer-section__item:not(:last-child) {
+        margin-right: 20px; } */
 
 .our-process-section {
   background-color: #181818;
