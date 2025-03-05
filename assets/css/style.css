@@ -4411,7 +4411,8 @@ header {
     height: 140%;
     top: -20%;
     bottom: -20%;
-    background-color: var(--main-color-one); }
+/*     background-color: var(--main-color-one); */
+  }
   .h2-vehicle-slider-items:hover .items-head {
     -webkit-transform: translateY(-28%);
     -ms-transform: translateY(-28%);
@@ -4423,8 +4424,8 @@ header {
     -webkit-transform: translateY(-40%);
     -ms-transform: translateY(-40%);
     transform: translateY(-40%); }
-    .h2-vehicle-slider-items:hover .items-body .heading-05 {
-      color: #fff; }
+/*     .h2-vehicle-slider-items:hover .items-body .heading-05 {
+      color: #fff; } */
     .h2-vehicle-slider-items:hover .items-body .list-items-wrap {
       list-style: none; }
       .h2-vehicle-slider-items:hover .items-body .list-items-wrap .list-items {
